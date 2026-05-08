@@ -1,0 +1,13 @@
+{
+  "name": "chronophybench",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Evaluation utilities for ChronoPhyBench.",
+  "type": "module",
+  "scripts": {
+    "manifest": "node scripts/build_video_manifest.mjs --root ../剪辑后视频 --base .. --output data/video_manifest.jsonl --private-mapping data/private_video_mapping.jsonl",
+    "release:hardlink": "node scripts/build_video_manifest.mjs --root ../剪辑后视频 --base .. --output data/video_manifest.jsonl --private-mapping data/private_video_mapping.jsonl --release-dir release/ChronoPhyBench-videos --copy-mode hardlink",
+    "eval:sample": "node scripts/evaluate.mjs --annotations data/sample_annotations.jsonl --predictions examples/sample_predictions.jsonl",
+    "video-bench:sample": "node scripts/step2_rule_judge.mjs --model_chat_files_folder ./Chat_results --rule_judge_output_folder ./Rule_Judge --Eval_QA_root ./ && node scripts/step3_merge_into_one_json.mjs --judge_files_folder ./Rule_Judge --merge_file ./ChronoPhyBench_Input.json && node scripts/step4_compute_scores.mjs --merge_file ./ChronoPhyBench_Input.json --score_output_file ./ChronoPhyBench_scores.json"
+  }
+}

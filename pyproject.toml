@@ -1,0 +1,10 @@
+[project]
+name = "chronophybench"
+version = "0.1.0"
+description = "Evaluation utilities for ChronoPhyBench."
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+chronophybench-eval = "evaluate:main"

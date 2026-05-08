@@ -1,0 +1,4 @@
+{"id":"chronophy_sample_0001","prediction":"B"}
+{"id":"chronophy_sample_0002","prediction":"A"}
+{"id":"chronophy_sample_0003","prediction":"B"}
+{"id":"chronophy_sample_0004","prediction":["C","A","B"]}

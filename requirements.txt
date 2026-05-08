@@ -1,0 +1,2 @@
+# The core evaluator only uses the Python standard library.
+# Optional packages for future model adapters or demos can be added here.

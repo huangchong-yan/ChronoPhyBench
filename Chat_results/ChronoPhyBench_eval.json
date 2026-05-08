@@ -1,0 +1,30 @@
+{
+  "0_chronophy_000001": {
+    "qid": "0",
+    "video_id": "chronophy_000001",
+    "task_type": "standard_qa",
+    "question": "What happens immediately after the ball rolls down the ramp and reaches the block? A. The ball stops before touching the block. B. The ball collides with the block and transfers momentum. C. The block moves before the ball arrives. D. Both objects float upward.",
+    "output_sequence": "B"
+  },
+  "1_chronophy_000002": {
+    "qid": "1",
+    "video_id": "chronophy_000002",
+    "task_type": "hallucination_qa",
+    "question": "The text says the cup is pulled upward, but the video shows it released from rest. Which outcome is physically consistent with the video? A. The cup falls downward under gravity. B. The cup rises upward without support. C. The cup remains fixed in midair. D. The table bends upward to catch it.",
+    "output_sequence": "A"
+  },
+  "2_chronophy_000003": {
+    "qid": "2",
+    "video_id": "chronophy_000003",
+    "task_type": "next_state_selection",
+    "question": "A pendulum swings from left to right and approaches the lowest point. Which candidate frame is the next physically plausible state? A. The pendulum instantly reverses before reaching the bottom. B. The pendulum continues through the bottom of the arc. C. The pendulum disappears from the scene.",
+    "output_sequence": "B"
+  },
+  "3_chronophy_000004": {
+    "qid": "3",
+    "video_id": "chronophy_000004",
+    "task_type": "frame_sorting",
+    "question": "A domino line has just started falling. Which option gives the correct chronological order of the candidate future frames? A. C, A, B B. A, C, B C. B, A, C D. C, B, A",
+    "output_sequence": "A"
+  }
+}
