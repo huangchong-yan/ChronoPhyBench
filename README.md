@@ -13,7 +13,7 @@
 <h5 align="center">
 
 [![Paper](https://img.shields.io/badge/Paper-NeurIPS%202026-b31b1b.svg?logo=arXiv)](#citation)
-[![Dataset](https://img.shields.io/badge/Kohsin/ChronoPhyBench)](#data-preparation)
+[![Dataset](https://img.shields.io/badge/Dataset-Kohsin/ChronoPhyBench-blue?logo=huggingface)](https://huggingface.co/datasets/Kohsin/ChronoPhyBench)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Format](https://img.shields.io/badge/Format-JSON-green.svg)](Eval_QA/ChronoPhyBench_QA_sample.json)
 
